@@ -2,7 +2,7 @@
 
 ## Relevanta filer
 
-Bilder: root/Images
+Bilder: root/images
 Markdown: root/documentation.md
 SQL: root/labb2.sql
 Javaklasser: root/src/main/java/se.iths.alfred.personalregister
