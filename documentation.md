@@ -131,13 +131,13 @@ Med en join upprepas den anställdes uppgifter en gång för varje matchande rad
 Eftersom den anställde har tre kompetenser visas den alltså tre gånger.
 ![VG3](images/VG3.jpg)
 
-**En anställd utan passerkort**
+**En anställd utan passerkort**  
 Med en LEFT JOIN visas alla rader i listan direkt efter FROM, i det här fallet *employee*.
 LEFT JOIN fyller även ut passerkortets kolumner med *`<null>`* om en matchning saknas.
 WHERE begränsar i sin tur raderna till en enda med dess unika matchande *employee_id*.
 ![VG3](images/VG3-2.jpg)
 
-**En anställd utan kompetenser**
+**En anställd utan kompetenser**  
 Precis som i den föregående tabellen hämtar vi här alla rader i *employee* och filtrerar ut
 den enda vars *employee_id* matchar, och med LEFT JOIN får vi *`<null>`* i kompetenskolumnerna.
 ![VG3](images/VG3-3.jpg)
