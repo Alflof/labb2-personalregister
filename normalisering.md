@@ -41,8 +41,8 @@ hör ihop, och ingen kolumn får upprepad information.
 
 ## Customer
 
-Alla kunduppgifter hamnar i *customer*-tabellen med *customer_id* som PK. *email* är fortfarande UNIQUE för att
-förhindra att samma person registrerar sig med samma emailadress två gånger, även om den inte längre används som
+Alla kunduppgifter hamnar i *customer*-tabellen med *customer_id* som PK. *Email* är fortfarande UNIQUE för att
+förhindra att samma person registrerar sig med samma emailadress flera gånger, även om den inte längre används som
 kund-id.
 
 | customer     | Attribut                         |
@@ -62,7 +62,8 @@ kund-id.
 
 ## Movie
 
-I *movie* hör allt filmrelaterat till, så bara titel och speltid med movie_id som PK.
+I *movie* hör allt filmrelaterat till, så bara titel och speltid med movie_id som PK. *Title* är fortfarande UNIQUE av
+samma anledning som *email* i *customer* - för att förhindra att samma filmtitel registreras flera gånger.
 
 | movie           | Attribut                         |
 |-----------------|----------------------------------|
