@@ -103,10 +103,10 @@ eftersom en film kan hyras av samma kund flera gånger.
 ## Relationer
 
 **Kund ⟷ Uthyrning**  
-Kardinalitet: 1:N
+Kardinalitet: 1:N  
 Koppling: Obligatorisk. En kund kan göra flera uthyrningar men varje uthyrning är bara kopplad till en kund.
 
 **Film ⟷ Uthyrning**  
-Kardinalitet: 1:N
+Kardinalitet: 1:N  
 Koppling: Obligatorisk. Samma film kan hyras ut flera gånger och kopplas till flera uthyrningar, men varje
 uthyrning är bara kopplad till en film.
