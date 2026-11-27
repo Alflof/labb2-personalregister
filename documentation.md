@@ -66,9 +66,9 @@ en eller flera anställda.
 
 ### Primära och främmande nycklar
 
-* Varje PK är en egen kolumn i form av ett automatiskt uppräknande heltal för enkelhets skull, och för att systemet inte
+* Varje Primary Key är en egen kolumn i form av ett automatiskt uppräknande heltal för enkelhets skull, och för att systemet inte
   ska vara beroende av en annan kolumn, exempelvis *email* som inte omöjligt skulle kunna ändras i framtiden.
-* FK *department_id* ligger i *employee* eftersom många anställda ska kunna hänvisa till samma avdelning (1:N-relation).
+* Foreign Key *department_id* ligger i *employee* eftersom många anställda ska kunna hänvisa till samma avdelning (1:N-relation).
   FK *employee_id* ligger i *keycard* för att undvika tomma *`<null>`*-värden på anställda som inte har något
   passerkort.
 * Kopplingstabellen *employee_skill* används för att hantera N:N-relationen mellan *employee* och *skill*. Eftersom
