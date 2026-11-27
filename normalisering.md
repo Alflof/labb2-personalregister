@@ -34,7 +34,7 @@ sökbar.
 - Filmtitel, speltid
 - Uthyrningsnummer, datum
 
-## Egna tabeller
+### Egna tabeller
 
 Med uppdelade tabeller löses problemet med upprepad information. Informationen organiseras efter kategorier som logiskt
 hör ihop, och ingen kolumn får upprepad information.
