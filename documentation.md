@@ -3,7 +3,7 @@
 ## Relevanta filer
 
 * **Bilder:** `images/`
-* **Markdown:** `documentation.md`
+* **Markdown:** `documentation.md`, `normalisering.md`
 * **SQL:** `labb2.sql`
 * **Javaklasser:** `src/main/java/se/iths/alfred/personalregister`
 
